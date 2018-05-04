@@ -9,7 +9,7 @@
 <pre lang="no-highlight">
 <code>
 $(function(){
-$(".read-more").readmore();
+	$(".read-more").readmore();
 });
 </code>
 </pre>
@@ -22,15 +22,15 @@ $(".read-more").readmore();
 <pre lang="no-highlight">
 <code>
 $(function(){
-$(".read-more").readmore({
-hideText: "Any text"
-readText: "New text",
-isTextShown: true,
-effect: true,
-effectOption: "slow",
-buttonClasses: "btn-primary opacity-rollover",
-id: "read-more-action"
-});
+	$(".read-more").readmore({
+		hideText: "Any text"
+		readText: "New text",
+		isTextShown: true,
+		effect: true,
+		effectOption: "slow",
+		buttonClasses: "btn-primary opacity-rollover",
+		id: "read-more-action"
+	});
 });
 </code>
 </pre>
