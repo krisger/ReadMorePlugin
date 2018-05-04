@@ -6,25 +6,34 @@
 	Call plugin with:
 </p>
 <p>
-	$(function(){
-		$(".read-more").readmore();
-	});
+	<pre lang="no-highlight">
+		<code>
+			$(function(){
+				$(".read-more").readmore();
+			});
+		</code>
+	</pre>
+
 </p>
 <p>
 	Or pass new options to plugin:
 </p>
 <p>
-	$(function(){
-		$(".read-more").readmore({
-			hideText: "Any text"
-			readText: "New text",
-			isTextShown: true,
-			effect: true,
-			effectOption: "slow",
-			buttonClasses: "btn-primary opacity-rollover",
-			id: "read-more-action"
-		});
-	});
+	<pre lang="no-highlight">
+		<code>
+			$(function(){
+				$(".read-more").readmore({
+					hideText: "Any text"
+					readText: "New text",
+					isTextShown: true,
+					effect: true,
+					effectOption: "slow",
+					buttonClasses: "btn-primary opacity-rollover",
+					id: "read-more-action"
+				});
+			});
+		</code>
+	</pre>
 </p>
 <h2><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"></a>License</h2>
 <p>This project is licensed under the MIT License - see the <a href="LICENSE.md">LICENSE.md</a> file for details</p>
