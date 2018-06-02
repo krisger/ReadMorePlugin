@@ -8,9 +8,17 @@
 <p>
 <pre lang="no-highlight">
 <code>
+
+//For single read more button itialise plugin like under
 $(function(){
 	$(".read-more").readmore();
 });
+
+//For multiple read more button initialise plugin like under
+$(function(){
+	$(".read-more").readmore({multiple:true});
+});
+
 </code>
 </pre>
 
