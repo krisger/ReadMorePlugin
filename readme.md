@@ -31,7 +31,6 @@ $(function(){
 <code>
 $(function(){
 	$(".read-more").readmore({
-		div: this,
 		hideText: "Read Less...",
 		readText: "Read More...",
 		isTextShown: false,
