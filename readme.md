@@ -31,13 +31,15 @@ $(function(){
 <code>
 $(function(){
 	$(".read-more").readmore({
-		hideText: "Any text"
-		readText: "New text",
-		isTextShown: true,
+		div: this,
+		hideText: "Read Less...",
+		readText: "Read More...",
+		isTextShown: false,
 		effect: true,
-		effectOption: "slow",
+		effectOption: "fast",
 		buttonClasses: "btn-primary opacity-rollover",
-		id: "read-more-action"
+		dataid: "read-more-action",
+		multiple: false
 	});
 });
 </code>
